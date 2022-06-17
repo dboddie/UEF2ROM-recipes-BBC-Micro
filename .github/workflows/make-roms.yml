@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v3
       - name: Clone UEF2ROM
-        run: git clone https://github.com/stardot/UEF2ROM
+        run: git clone -b python3 https://github.com/stardot/UEF2ROM
       - name: Fetch resources
         run: python3 fetch-uefs.py
       - name: Create scripts
