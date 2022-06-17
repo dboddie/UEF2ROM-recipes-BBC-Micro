@@ -18,9 +18,5 @@ jobs:
       - uses: actions/checkout@v3
       - name: Set up Python
         uses: actions/setup-python@v3
-      - name: Test Python
-        run: python --version
-      - name: Test git
-        run: git clone -b python3 https://github.com/stardot/UEF2ROM
-      - name: Test wget
-        run: wget https://github.com
+      - name: Look at the checkout
+        run: ls
