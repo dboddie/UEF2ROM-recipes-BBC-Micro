@@ -1,0 +1,2 @@
+Status,Name,Publisher,UEF,ROMs,Options,URL,Files
+OK,Hopper,Acornsoft,Hopper-v2.2_B.uef,Hopper.rom,-b -B E00 -rn HOPPER -c : -f 0:1,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Hopper-v2.2_B.zip,Hopper-v2.2_B.uef
