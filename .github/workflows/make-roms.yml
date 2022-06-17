@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v3
       - name: Install Ophis
-        run: sudo apt-get -y install python-ophis
+        run: git clone https://github.com/michaelcmartin/Ophis
       - name: Clone UEF2ROM
         run: git clone -b python3 https://github.com/stardot/UEF2ROM
       - name: Fetch resources
@@ -27,7 +27,7 @@ jobs:
       - name: Create scripts
         run: python3 csv2scripts.py
       - name: Run the batch script
-        run: PATH=UEF2ROM:$PATH sh batch.sh
+        run: PATH=Ophis:UEF2ROM:$PATH sh batch.sh
       - uses: actions/upload-artifact@v3
         with:
           name: Converted ROMs
