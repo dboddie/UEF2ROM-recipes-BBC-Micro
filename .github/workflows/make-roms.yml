@@ -25,7 +25,7 @@ jobs:
       - name: Create scripts
         run: python3 csv2scripts.py
       - name: Run the batch script
-        run: PATH=UEF2ROM:$PATH python3 batch.py
+        run: PATH=UEF2ROM:$PATH sh batch.sh
       - uses: actions/upload-artifact@v3
         with:
           name: Converted ROMs
