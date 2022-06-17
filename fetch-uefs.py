@@ -17,7 +17,8 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-import os, requests, sys, time, zipfile
+import os, sys, time, zipfile
+import urllib.error, urllib.request
 from io import BytesIO
 
 check_headings = ["Status", "Name", "Publisher", "UEF", "ROMs", "Options", "URL", "Files"]
@@ -66,17 +67,17 @@ for line in lines:
     
         print("Downloading", url)
         
-        resp = requests.get(url)
-        resp.close()
+        try:
+            resp = urllib.request.urlopen(url)
 
-        if not resp.ok:
+        except urllib.error.HTTPError:
             sys.stderr.write("Failed to download %s\n" % file_name)
             
             # Don't try to download this UEF next time.
             if not original_url:
                 d["URL"] = "-"
         
-        data = BytesIO(resp.content)
+        data = BytesIO(resp.read())
         d["URL"] = url
         
         try:
