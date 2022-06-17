@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v3
       - name: Try requests
-        run: python3 -c 'requests.get("https://github.com").ok'
+        run: python3 -c 'import requests; requests.get("https://github.com").ok'
       - name: Clone UEF2ROM
         run: git clone https://github.com/stardot/UEF2ROM
       - name: Fetch resources
