@@ -15,9 +15,8 @@ jobs:
       fail-fast: false
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up Python
-      uses: actions/setup-python@v3
-    - name: Test Python
-      run: |
-        python -v
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v3
+      - name: Test Python
+        run: python -v
