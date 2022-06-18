@@ -1,7 +1,10 @@
 Status,Name,Publisher,UEF,ROMs,Options,URL,Files
 OK,Arcadians,Acornsoft,Arcadians-v1.2_B.uef,Arcadians.rom,-b -B E00 -rn ARCADIANS -c : -f 1 -r,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Arcadians-v1.2_B.zip,Arcadians-v1.2_B.uef
+OK,Boxer,Acornsoft,Boxer-v1_B.uef,Boxer.rom,-b -B 2000 -rn BOXER -c :.40d4 -f 0:1 -w 120,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Boxer-v1_B.zip,Boxer-v1_B.uef
 OK,Chuckie Egg,A&F,ChuckieEgg_B.uef,ChuckieEgg.rom,-b -B 1900 -rn CHUCKIE -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/AnF/ChuckieEgg_B.zip,ChuckieEgg_B.uef
 OK,Hopper,Acornsoft,Hopper-v2.2_B.uef,Hopper.rom,-b -B E00 -rn HOPPER -c : -f 0:1,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Hopper-v2.2_B.zip,Hopper-v2.2_B.uef
+OK,JCB Digger,Acornsoft,JCBDigger-v1.1_B.uef,JCBDigger.rom,-b -B E00 -rn JCB -c :.63cc -f 0:1,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/JCBDigger-v1.1_B.zip,JCBDigger-v1.1_B.uef
+OK,Magic Mushrooms,Acornsoft,MagicMushrooms-v1_B.uef,Magic.rom,-b -B 1900 -rn MAGIC -c :.4700 -f 0:1,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/MagicMushrooms-v1_B.zip,MagicMushrooms-v1_B.uef
 OK,Meteors,Acornsoft,Meteors-v1_B.uef,Meteors.rom,-b -B E00 -rn METEORS -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Meteors-v1_B.zip,Meteors-v1_B.uef
 OK,Monsters,Acornsoft,Monsters-v3.2_B.uef,Monsters.rom,-b -B 4000 -rn MONSTERS -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Monsters-v3.2_B.zip,Monsters-v3.2_B.uef
 OK,Mr Ee,Micro Power,MrEe_B.uef,MrEe.rom,-b -B E00 -rn MREE -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/Micropower/MrEe_B.zip,MrEe_B.uef
