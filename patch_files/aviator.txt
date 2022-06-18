@@ -1,0 +1,5 @@
+# Index     Offset      Span length     Data
+# Zero source code in the executable to help with compression.
+  1         0x30fc      514             zero
+  1         0x3def      520             zero
+# This is not enough to save space to fit everything into one ROM.
