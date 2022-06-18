@@ -2,6 +2,7 @@ Status,Name,Publisher,UEF,ROMs,Options,URL,Files
 OK,Arcadians,Acornsoft,Arcadians-v1.2_B.uef,Arcadians.rom,-b -B E00 -rn ARCADIANS -c : -f 1 -r,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Arcadians-v1.2_B.zip,Arcadians-v1.2_B.uef
 OK,Chuckie Egg,A&F,ChuckieEgg_B.uef,ChuckieEgg.rom,-b -B 1900 -rn CHUCKIE -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/AnF/ChuckieEgg_B.zip,ChuckieEgg_B.uef
 OK,Hopper,Acornsoft,Hopper-v2.2_B.uef,Hopper.rom,-b -B E00 -rn HOPPER -c : -f 0:1,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Hopper-v2.2_B.zip,Hopper-v2.2_B.uef
+OK,Meteors,Acornsoft,Meteors-v1_B.uef,Meteors.rom,-b -B E00 -rn METEORS -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Meteors-v1_B.zip,Meteors-v1_B.uef
 OK,Monsters,Acornsoft,Monsters-v3.2_B.uef,Monsters.rom,-b -B 4000 -rn MONSTERS -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Monsters-v3.2_B.zip,Monsters-v3.2_B.uef
 OK,Mr Ee,Micro Power,MrEe_B.uef,MrEe.rom,-b -B E00 -rn MREE -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/Micropower/MrEe_B.zip,MrEe_B.uef
 OK,Pengi,Visions,Pengi_B.uef,Pengi.rom,-b -B 1900 -rn PENGI -c :4000: -w 120,https://www.stairwaytohell.com/bbc/archive/tapeimages/Visions/Pengi_B.zip,Pengi_B.uef
