@@ -1,0 +1,5 @@
+# Index     Offset      Span length     Data
+# Replacing some stray BASIC will cause issues, so omit for now.
+#  1         0x4cc0      64              20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20
+# Cut off a message to save space.
+  1         0x503e      267             34
