@@ -12,7 +12,9 @@ OK,Killer Gorilla,Micropower,KillerGorilla_B.uef,KillerGorilla.rom,-b -B E00 -rn
 OK (no * command),Labyrinth,Acornsoft,Labyrinth-v1.0_B.uef,Labyrinth.rom,-c .5d00 -f 1 -m -r -pf patch_files/labyrinth.txt,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Labyrinth-v1.0_B.zip,Labyrinth-v1.0_B.uef
 OK,Magic Mushrooms,Acornsoft,MagicMushrooms-v1_B.uef,Magic.rom,-b -B 1900 -rn MAGIC -c :.4700 -f 0:1,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/MagicMushrooms-v1_B.zip,MagicMushrooms-v1_B.uef
 OK,Maze,Acornsoft,Maze-v1_B.uef,Maze.rom,-b -B E00 -rn MAZE -c :.3a9f -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Maze-v1_B.zip,Maze-v1_B.uef
+OK,Meteor Mission,Acornsoft,MeteorMission-v1_B.uef,MeteorMission.rom,-b -B E00 -rn MISSION -c :.361d -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/MeteorMission-v1_B.zip,MeteorMission-v1_B.uef
 OK,Meteors,Acornsoft,Meteors-v1_B.uef,Meteors.rom,-b -B E00 -rn METEORS -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Meteors-v1_B.zip,Meteors-v1_B.uef
+OK,Missile Base,Acornsoft,MissileBase-v2.0_B.uef,MissileBase.rom,-b -B E00 -rn MISSILE -c :2000 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/MissileBase-v2.0_B.zip,MissileBase-v2.0_B.uef
 OK,Monsters,Acornsoft,Monsters-v3.2_B.uef,Monsters.rom,-b -B 4000 -rn MONSTERS -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Monsters-v3.2_B.zip,Monsters-v3.2_B.uef
 OK,Mr Ee,Micro Power,MrEe_B.uef,MrEe.rom,-b -B E00 -rn MREE -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/Micropower/MrEe_B.zip,MrEe_B.uef
 OK,Pengi,Visions,Pengi_B.uef,Pengi.rom,-b -B 1900 -rn PENGI -c :4000: -w 120,https://www.stairwaytohell.com/bbc/archive/tapeimages/Visions/Pengi_B.zip,Pengi_B.uef
@@ -26,3 +28,4 @@ OK,Starship Command,Acornsoft,StarshipCommand-v1.1_B.uef,Starship.rom,-b -B E00 
 OK,Super Invaders,Acornsoft,SuperInvaders-v1_B.uef,SuperInvaders.rom,-b -B E00 -rn SUPER -c : -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/SuperInvaders-v1_B.zip,SuperInvaders-v1_B.uef
 OK,Tetrapod,Acornsoft,Tetrapod-v1_B.uef,Tetrapod.rom,-b -B E00 -rn TETRAPOD -c :.2333 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Tetrapod-v1_B.zip,Tetrapod-v1_B.uef
 OK,Volcano,Acornsoft,Volcano-v1_B.uef,Volcano.rom,-b -B E00 -rn VOLCANO -c :.44a0 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Volcano-v1_B.zip,Volcano-v1_B.uef
+OK (partly compressed),Zalaga,Aardvark,Zalaga-v2.2_RUN_B.uef,Zalaga.rom,-b -rn ZALAGA -c :x -r,https://www.stairwaytohell.com/bbc/archive/tapeimages/Aardvark/Zalaga-v2.2_RUN_B.zip,Zalaga-v2.2_RUN_B.uef
