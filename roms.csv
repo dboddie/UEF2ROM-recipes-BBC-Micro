@@ -1,5 +1,6 @@
 Status,Name,Publisher,UEF,ROMs,Options,URL,Files
 OK,Arcadians,Acornsoft,Arcadians-v1.2_B.uef,Arcadians.rom,-b -B E00 -rn ARCADIANS -c : -f 1 -r,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Arcadians-v1.2_B.zip,Arcadians-v1.2_B.uef
+OK,Aviator,Acornsoft,Aviator-v1.1_B.uef,Aviator-1.rom Aviator-2.rom,-b -B E00 -rn AVIATOR -c :.b00/: -m -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Aviator-v1.1_B.zip,Aviator-v1.1_B.uef
 OK,Boxer,Acornsoft,Boxer-v1_B.uef,Boxer.rom,-b -B 2000 -rn BOXER -c :.40d4 -f 0:1 -w 120,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Boxer-v1_B.zip,Boxer-v1_B.uef
 OK,Breakout,Acornsoft,ArcadeAction-v2.5_B.uef,AABreakout.rom,-c : -f 2 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/ArcadeAction-v2.5_B.zip,ArcadeAction-v2.5_B.uef
 OK,Chuckie Egg,A&F,ChuckieEgg_B.uef,ChuckieEgg.rom,-b -B 1900 -rn CHUCKIE -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/AnF/ChuckieEgg_B.zip,ChuckieEgg_B.uef
@@ -10,7 +11,7 @@ OK,Hopper,Acornsoft,Hopper-v2.2_B.uef,Hopper.rom,-b -B E00 -rn HOPPER -c : -f 0:
 OK,Invaders,Acornsoft,ArcadeAction-v2.5_B.uef,AAInvaders.rom,-c : -f 1 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/ArcadeAction-v2.5_B.zip,ArcadeAction-v2.5_B.uef
 OK,JCB Digger,Acornsoft,JCBDigger-v1.1_B.uef,JCBDigger.rom,-b -B E00 -rn JCB -c :.63cc -f 0:1,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/JCBDigger-v1.1_B.zip,JCBDigger-v1.1_B.uef
 OK,Killer Gorilla,Micropower,KillerGorilla_B.uef,KillerGorilla.rom,-b -B E00 -rn GORILLA -c : -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Micropower/KillerGorilla_B.zip,KillerGorilla_B.uef
-OK (no * command),Labyrinth,Acornsoft,Labyrinth-v1.0_B.uef,Labyrinth.rom,-c .5d00 -f 1 -m -r -pf patch_files/labyrinth.txt,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Labyrinth-v1.0_B.zip,Labyrinth-v1.0_B.uef
+OK,Labyrinth,Acornsoft,Labyrinth-v1.0_B.uef,Labyrinth.rom,-b -B 1900 -bf \!BOOT -rn LABYRINTH -c :.5d00:/: -m -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Labyrinth-v1.0_B.zip,Labyrinth-v1.0_B.uef
 OK,Magic Mushrooms,Acornsoft,MagicMushrooms-v1_B.uef,Magic.rom,-b -B 1900 -rn MAGIC -c :.4700 -f 0:1,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/MagicMushrooms-v1_B.zip,MagicMushrooms-v1_B.uef
 OK,Maze,Acornsoft,Maze-v1_B.uef,Maze.rom,-b -B E00 -rn MAZE -c :.3a9f -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Maze-v1_B.zip,Maze-v1_B.uef
 OK,Meteor Mission,Acornsoft,MeteorMission-v1_B.uef,MeteorMission.rom,-b -B E00 -rn MISSION -c :.361d -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/MeteorMission-v1_B.zip,MeteorMission-v1_B.uef
@@ -23,13 +24,16 @@ OK,Plan B,Bug Byte,PlanB_BE.uef,PlanB.rom,-b -rn PLANB -c : -f 2 -m -r,https://w
 OK,Plan B2,Bug Byte,PlanB2_BE.uef,PlanB2.rom,-b -B 1900 -rn PLANB2 -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/BugByte/PlanB2_BE.zip,PlanB2_BE.uef
 OK,Planetoid,Acornsoft,Planetoid-v2.1_B.uef,Planetoid.rom,-b -B E00 -rn PLANETOID -c :3c00: -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Planetoid-v2.1_B.zip,Planetoid-v2.1_B.uef
 OK,Proteans,DK Tronics,Proteanse_B.uef,Proteans.rom,-b -B E00 -rn PROTEANSE -c : -w 120,https://www.stairwaytohell.com/bbc/archive/tapeimages/DKTronics/Proteanse_B.zip,Proteanse_B.uef
+OK,Repton,Superior Software,Repton-SCRR_B.uef,Repton-2.rom Repton-1.rom,-b -B E00 -bf \!BOOT -rn REPTON -c :/: -s -t -w 120,https://www.stairwaytohell.com/bbc/archive/tapeimages/Superior/Repton-SCRR_B.zip,Repton-SCRR_B.uef
 OK,Rocket Raid,Acornsoft,RocketRaid-v2.1_B.uef,RocketRaid.rom,-b -B 1900 -rn ROCKET -c :4000:e00: -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/RocketRaid-v2.1_B.zip,RocketRaid-v2.1_B.uef
 OK,Rubble Trouble,Micropower,RubbleTrouble_B.uef,RubbleTrouble.rom,-b -B 1900 -rn RUBBLE -c ::2f00: -w 120,https://www.stairwaytohell.com/bbc/archive/tapeimages/Micropower/RubbleTrouble_B.zip,RubbleTrouble_B.uef
 OK,Shark,Audiogenic,Shark_B.uef,Shark.rom,-b -B E00 -rn SHARK -c e00: -w 100 -t,https://www.stairwaytohell.com/bbc/archive/tapeimages/Audiogenic/Shark_B.zip,Shark_B.uef
 OK,Snake,Acornsoft,ArcadeAction-v2.5_B.uef,AASnake.rom,-c : -f 4 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/ArcadeAction-v2.5_B.zip,ArcadeAction-v2.5_B.uef
 OK,Snapper,Acornsoft,Snapper-v2.2_B.uef,Snapper.rom,-b -B E00 -rn SNAPPER -f 0:1:2 -c :4000:,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Snapper-v2.2_B.zip,Snapper-v2.2_B.uef
+OK,Sphinx Adventure,Acornsoft,SphinxAdventure-v1.0_B.uef,Sphinx-1.rom Sphinx-2.rom,-b -B e00 -bf \!BOOT -rn SPHINX -c :/: -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/SphinxAdventure-v1.0_B.zip,SphinxAdventure-v1.0_B.uef
 OK,Starship Command,Acornsoft,StarshipCommand-v1.1_B.uef,Starship.rom,-b -B E00 -rn STARSHIP -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/StarshipCommand-v1.1_B.zip,StarshipCommand-v1.1_B.uef
 OK,Super Invaders,Acornsoft,SuperInvaders-v1_B.uef,SuperInvaders.rom,-b -B E00 -rn SUPER -c : -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/SuperInvaders-v1_B.zip,SuperInvaders-v1_B.uef
 OK,Tetrapod,Acornsoft,Tetrapod-v1_B.uef,Tetrapod.rom,-b -B E00 -rn TETRAPOD -c :.2333 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Tetrapod-v1_B.zip,Tetrapod-v1_B.uef
+OK,Thrust,Superior Software,Thrust_B.uef,Thrust-2.rom Thrust-1.rom,b -B 1900 -bf \!BOOT -rn THRUST -c :/: -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/Superior/Thrust_B.zip,Thrust_B.uef
 OK,Volcano,Acornsoft,Volcano-v1_B.uef,Volcano.rom,-b -B E00 -rn VOLCANO -c :.44a0 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Volcano-v1_B.zip,Volcano-v1_B.uef
 OK (partly compressed),Zalaga,Aardvark,Zalaga-v2.2_RUN_B.uef,Zalaga.rom,-b -rn ZALAGA -c :x -r,https://www.stairwaytohell.com/bbc/archive/tapeimages/Aardvark/Zalaga-v2.2_RUN_B.zip,Zalaga-v2.2_RUN_B.uef
