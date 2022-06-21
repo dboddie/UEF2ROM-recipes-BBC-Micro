@@ -13,7 +13,7 @@ OK,Hopper,Acornsoft,Hopper-v2.2_B.uef,Hopper.rom,-b -B E00 -rn HOPPER -c : -f 0:
 OK,Invaders,Acornsoft,ArcadeAction-v2.5_B.uef,AAInvaders.rom,-c : -f 1 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/ArcadeAction-v2.5_B.zip,ArcadeAction-v2.5_B.uef
 OK,JCB Digger,Acornsoft,JCBDigger-v1.1_B.uef,JCBDigger.rom,-b -B E00 -rn JCB -c :.63cc -f 0:1,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/JCBDigger-v1.1_B.zip,JCBDigger-v1.1_B.uef
 OK,Killer Gorilla,Micropower,KillerGorilla_B.uef,KillerGorilla.rom,-b -B E00 -rn GORILLA -c : -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Micropower/KillerGorilla_B.zip,KillerGorilla_B.uef
-OK,Labyrinth,Acornsoft,Labyrinth-v1.0_B.uef,Labyrinth.rom,-b -B 1900 -bf \!BOOT -rn LABYRINTH -c :.5d00:/: -m -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Labyrinth-v1.0_B.zip,Labyrinth-v1.0_B.uef
+OK,Labyrinth,Acornsoft,Labyrinth-v1.0_B.uef,Labyrinth-1.rom Labyrinth-2.rom,-b -B 1900 -bf \!BOOT -rn LABYRINTH -c :.5d00:/: -m -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Labyrinth-v1.0_B.zip,Labyrinth-v1.0_B.uef
 OK,Magic Mushrooms,Acornsoft,MagicMushrooms-v1_B.uef,Magic.rom,-b -B 1900 -rn MAGIC -c :.4700 -f 0:1,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/MagicMushrooms-v1_B.zip,MagicMushrooms-v1_B.uef
 OK,Maze,Acornsoft,Maze-v1_B.uef,Maze.rom,-b -B E00 -rn MAZE -c :.3a9f -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Maze-v1_B.zip,Maze-v1_B.uef
 OK,Meteor Mission,Acornsoft,MeteorMission-v1_B.uef,MeteorMission.rom,-b -B E00 -rn MISSION -c :.361d -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/MeteorMission-v1_B.zip,MeteorMission-v1_B.uef
