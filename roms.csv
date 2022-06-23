@@ -8,6 +8,7 @@ OK,Death Star,Superior Software,DeathStar-BRRR_B.uef,DeathStar.rom,-b -B 1900 -b
 OK,Dodgems,Acornsoft,ArcadeAction-v2.5_B.uef,AADodgems.rom,-c : -f 3 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/ArcadeAction-v2.5_B.zip,ArcadeAction-v2.5_B.uef
 OK,Elixir,Superior Software,Elixir_B.uef,Elixir-1.rom Elixir-2.rom,-b -B 1900 -bf \!BOOT -rn ELIXIR -c :/: -s -t -w 39f,https://www.stairwaytohell.com/bbc/archive/tapeimages/Superior/Elixir_B.zip,Elixir_B.uef
 OK,Firebug,Acornsoft,Firebug-v1_B.uef,Firebug.rom,-b -B 1900 -rn FIREBUG -c :.3e00 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Firebug-v1_B.zip,Firebug-v1_B.uef
+OK,Freefall,Acornsoft,FreeFall-v1.2_B.uef,FreeFall-1.rom FreeFall-2.rom,-b -B 4000 -bf \!BOOT -rn FREEFALL -c :e00:.2214/: -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/FreeFall-v1.2_B.zip,FreeFall-v1.2_B.uef
 OK,Galaxy Wars,Bug Byte,GalaxyWars_RUN_B.uef,GalaxyWars.rom,-b -rn GALAXY -c : -m -r,https://www.stairwaytohell.com/bbc/archive/tapeimages/BugByte/GalaxyWars_RUN_B.zip,GalaxyWars_RUN_B.uef
 OK,Hopper,Acornsoft,Hopper-v2.2_B.uef,Hopper.rom,-b -B E00 -rn HOPPER -c : -f 0:1,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Hopper-v2.2_B.zip,Hopper-v2.2_B.uef
 OK,Invaders,Acornsoft,ArcadeAction-v2.5_B.uef,AAInvaders.rom,-c : -f 1 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/ArcadeAction-v2.5_B.zip,ArcadeAction-v2.5_B.uef
