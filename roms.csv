@@ -11,6 +11,7 @@ OK,Firebug,Acornsoft,Firebug-v1_B.uef,Firebug.rom,-b -B 1900 -rn FIREBUG -c :.3e
 OK,Galaxy Wars,Bug Byte,GalaxyWars_RUN_B.uef,GalaxyWars.rom,-b -rn GALAXY -c : -m -r,https://www.stairwaytohell.com/bbc/archive/tapeimages/BugByte/GalaxyWars_RUN_B.zip,GalaxyWars_RUN_B.uef
 OK,Hopper,Acornsoft,Hopper-v2.2_B.uef,Hopper.rom,-b -B E00 -rn HOPPER -c : -f 0:1,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Hopper-v2.2_B.zip,Hopper-v2.2_B.uef
 OK,Invaders,Acornsoft,ArcadeAction-v2.5_B.uef,AAInvaders.rom,-c : -f 1 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/ArcadeAction-v2.5_B.zip,ArcadeAction-v2.5_B.uef
+OK,Inertia,4th Dimension,Inertia_B.uef,Inertia-2.rom Inertia-1.rom,-b -B 1900 -bf \!BOOT -rn INERTIA -c :6980:8c0/: -m -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/4thDimension/Inertia_B.zip,Inertia_B.uef
 OK,JCB Digger,Acornsoft,JCBDigger-v1.1_B.uef,JCBDigger.rom,-b -B E00 -rn JCB -c :.63cc -f 0:1,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/JCBDigger-v1.1_B.zip,JCBDigger-v1.1_B.uef
 OK,Killer Gorilla,Micropower,KillerGorilla_B.uef,KillerGorilla.rom,-b -B E00 -rn GORILLA -c : -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Micropower/KillerGorilla_B.zip,KillerGorilla_B.uef
 OK,Labyrinth,Acornsoft,Labyrinth-v1.0_B.uef,Labyrinth-1.rom Labyrinth-2.rom,-b -B 1900 -bf \!BOOT -rn LABYRINTH -c :.5d00:/: -m -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Labyrinth-v1.0_B.zip,Labyrinth-v1.0_B.uef
