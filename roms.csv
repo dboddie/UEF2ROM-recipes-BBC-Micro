@@ -3,6 +3,7 @@ OK,Arcadians,Acornsoft,Arcadians-v1.2_B.uef,Arcadians.rom,-b -B E00 -rn ARCADIAN
 OK,Aviator,Acornsoft,Aviator-v1.1_B.uef,Aviator-1.rom Aviator-2.rom,-b -B E00 -rn AVIATOR -c :.b00/: -m -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Aviator-v1.1_B.zip,Aviator-v1.1_B.uef
 OK,Boxer,Acornsoft,Boxer-v1_B.uef,Boxer.rom,-b -B 2000 -rn BOXER -c :.40d4 -f 0:1 -w 120,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Boxer-v1_B.zip,Boxer-v1_B.uef
 OK,Breakout,Acornsoft,ArcadeAction-v2.5_B.uef,AABreakout.rom,-c : -f 2 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/ArcadeAction-v2.5_B.zip,ArcadeAction-v2.5_B.uef
+OK,Bumble Bee,Micropower,BumbleBee_B.uef,BumbleBee.rom,-b -B E00 -bf \!BOOT -rn BUMBLE -c : -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Micropower/BumbleBee_B.zip,BumbleBee_B.uef
 OK,Chuckie Egg,A&F,ChuckieEgg_B.uef,ChuckieEgg.rom,-b -B 1900 -rn CHUCKIE -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/AnF/ChuckieEgg_B.zip,ChuckieEgg_B.uef
 OK,Cybertron Mission,Micropower,CybertronMission_B.uef,Cybertron.rom,-b -B E00 -bf \!BOOT -rn CYBERTRON -c : -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Micropower/CybertronMission_B.zip,CybertronMission_B.uef
 OK,Death Star,Superior Software,DeathStar-BRRR_B.uef,DeathStar.rom,-b -B 1900 -bf \!BOOT -rn DEATHSTAR -c ::::3000:2800,https://www.stairwaytohell.com/bbc/archive/tapeimages/Superior/DeathStar-BRRR_B.zip,DeathStar-BRRR_B.uef
@@ -42,6 +43,7 @@ OK,Snake,Acornsoft,ArcadeAction-v2.5_B.uef,AASnake.rom,-c : -f 4 -m,https://www.
 OK,Snapper,Acornsoft,Snapper-v2.2_B.uef,Snapper.rom,-b -B E00 -rn SNAPPER -f 0:1:2 -c :4000:,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Snapper-v2.2_B.zip,Snapper-v2.2_B.uef
 OK,Sphinx Adventure,Acornsoft,SphinxAdventure-v1.0_B.uef,Sphinx-1.rom Sphinx-2.rom,-b -B e00 -bf \!BOOT -rn SPHINX -c :/: -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/SphinxAdventure-v1.0_B.zip,SphinxAdventure-v1.0_B.uef
 OK,Starship Command,Acornsoft,StarshipCommand-v1.1_B.uef,Starship.rom,-b -B E00 -rn STARSHIP -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/StarshipCommand-v1.1_B.zip,StarshipCommand-v1.1_B.uef
+OK,Stock Car,Micropower,StockCar_B.uef,StockCar.rom,-b -B 1900 -bf \!BOOT -rn STOCKCAR -c :e00:,https://www.stairwaytohell.com/bbc/archive/tapeimages/Micropower/StockCar_B.zip,StockCar_B.uef
 OK,Super Invaders,Acornsoft,SuperInvaders-v1_B.uef,SuperInvaders.rom,-b -B E00 -rn SUPER -c : -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/SuperInvaders-v1_B.zip,SuperInvaders-v1_B.uef
 OK,Tetrapod,Acornsoft,Tetrapod-v1_B.uef,Tetrapod.rom,-b -B E00 -rn TETRAPOD -c :.2333 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Tetrapod-v1_B.zip,Tetrapod-v1_B.uef
 OK,Thrust,Superior Software,Thrust_B.uef,Thrust-2.rom Thrust-1.rom,-b -B 1900 -bf \!BOOT -rn THRUST -c :/: -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/Superior/Thrust_B.zip,Thrust_B.uef
