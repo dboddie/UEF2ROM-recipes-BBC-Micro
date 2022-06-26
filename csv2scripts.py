@@ -30,8 +30,8 @@ if headings != check_headings:
 
 bf = open("batch.sh", "w")
 bf.write("#!/bin/sh\n\nset -e\n\n")
-tf = open("testroms.sh", "w")
-tf.write("#!/bin/sh\n\nset -e\n\n")
+#tf = open("testroms.sh", "w")
+#tf.write("#!/bin/sh\n\nset -e\n\n")
 
 games = 0
 roms = 0
@@ -63,21 +63,21 @@ for line in lines:
     
     if len(ROMs) == 1:
         bf.write("UEF2ROM.py %(Options)s UEFs/%(UEF)s ROMs/%(ROM1)s\n" % d)
-        tf.write("elkulator -rom2 ROMs/%(ROM1)s\n" % d)
+#        tf.write("elkulator -rom2 ROMs/%(ROM1)s\n" % d)
     elif len(ROMs) == 2:
         bf.write("UEF2ROM.py %(Options)s UEFs/%(UEF)s ROMs/%(ROM1)s ROMs/%(ROM2)s\n" % d)
-        tf.write("elkulator -rom2 ROMs/%(ROM1)s -rom1 ROMs/%(ROM2)s\n" % d)
+#        tf.write("elkulator -rom2 ROMs/%(ROM1)s -rom1 ROMs/%(ROM2)s\n" % d)
     else:
         d["ROMs"] = " ".join(map(lambda ROM: "ROMs/" + ROM, ROMs))
         d["combined"] = "ROMs/" + os.path.split(d["UEF"])[1].replace(".uef", ".rom")
         bf.write("UEF2ROM.py %(Options)s UEFs/%(UEF)s %(ROMs)s\n" % d)
         bf.write("cat %(ROMs)s > %(combined)s\n" % d)
-        tf.write("elkulator -rom2 %(combined)s\n" % d)
+#        tf.write("elkulator -rom2 %(combined)s\n" % d)
     
     roms += len(ROMs)
 
 bf.close()
-tf.close()
+#tf.close()
 
 print("%i titles" % games)
 print("%i ROMs" % roms)

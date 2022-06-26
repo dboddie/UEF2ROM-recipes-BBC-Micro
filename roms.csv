@@ -4,6 +4,7 @@ OK,Aviator,Acornsoft,Aviator-v1.1_B.uef,Aviator-1.rom Aviator-2.rom,-b -B E00 -r
 OK,Boxer,Acornsoft,Boxer-v1_B.uef,Boxer.rom,-b -B 2000 -rn BOXER -c :.40d4 -f 0:1 -w 120,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Boxer-v1_B.zip,Boxer-v1_B.uef
 OK,Breakout,Acornsoft,ArcadeAction-v2.5_B.uef,AABreakout.rom,-c : -f 2 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/ArcadeAction-v2.5_B.zip,ArcadeAction-v2.5_B.uef
 OK,Bumble Bee,Micropower,BumbleBee_B.uef,BumbleBee.rom,-b -B E00 -bf \!BOOT -rn BUMBLE -c : -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Micropower/BumbleBee_B.zip,BumbleBee_B.uef
+OK,Castle Quest,Micropower,CastleQuest.uef,CastleQuest-2.rom CastleQuest-1.rom,-b -B 1200 -bf \!BOOT -rn CASTLEQUEST -c 1200::::::1100:/: -m -s -pf patch_files/castlequest.txt,https://www.stairwaytohell.com/bbc/archive/diskimages/Micropower/CastleQuest.zip,Micropower/CastleQuest.ssd
 OK,Chuckie Egg,A&F,ChuckieEgg_B.uef,ChuckieEgg.rom,-b -B 1900 -rn CHUCKIE -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/AnF/ChuckieEgg_B.zip,ChuckieEgg_B.uef
 OK,Cybertron Mission,Micropower,CybertronMission_B.uef,Cybertron.rom,-b -B E00 -bf \!BOOT -rn CYBERTRON -c : -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Micropower/CybertronMission_B.zip,CybertronMission_B.uef
 OK,Death Star,Superior Software,DeathStar-BRRR_B.uef,DeathStar.rom,-b -B 1900 -bf \!BOOT -rn DEATHSTAR -c ::::3000:2800,https://www.stairwaytohell.com/bbc/archive/tapeimages/Superior/DeathStar-BRRR_B.zip,DeathStar-BRRR_B.uef
@@ -16,6 +17,7 @@ OK,Firebug,Acornsoft,Firebug-v1_B.uef,Firebug.rom,-b -B 1900 -rn FIREBUG -c :.3e
 OK,Freefall,Acornsoft,FreeFall-v1.2_B.uef,FreeFall-1.rom FreeFall-2.rom,-b -B 4000 -bf \!BOOT -rn FREEFALL -c :e00:.2214/: -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/FreeFall-v1.2_B.zip,FreeFall-v1.2_B.uef
 OK,Galaxy Wars,Bug Byte,GalaxyWars_RUN_B.uef,GalaxyWars.rom,-b -rn GALAXY -c : -m -r,https://www.stairwaytohell.com/bbc/archive/tapeimages/BugByte/GalaxyWars_RUN_B.zip,GalaxyWars_RUN_B.uef
 OK,Hopper,Acornsoft,Hopper-v2.2_B.uef,Hopper.rom,-b -B E00 -rn HOPPER -c : -f 0:1,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Hopper-v2.2_B.zip,Hopper-v2.2_B.uef
+OK,Impact,Audiogenic,Impact_B.uef,Impact-2.rom Impact-1.rom,-b -B 1200 -bf \!BOOT -rn IMPACT -c ::x:/: -m -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/Audiogenic/Impact_B.zip,Impact_B.uef
 OK,Invaders,Acornsoft,ArcadeAction-v2.5_B.uef,AAInvaders.rom,-c : -f 1 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/ArcadeAction-v2.5_B.zip,ArcadeAction-v2.5_B.uef
 OK,Inertia,4th Dimension,Inertia_B.uef,Inertia-2.rom Inertia-1.rom,-b -B 1900 -bf \!BOOT -rn INERTIA -c :6980:8c0/: -m -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/4thDimension/Inertia_B.zip,Inertia_B.uef
 OK,JCB Digger,Acornsoft,JCBDigger-v1.1_B.uef,JCBDigger.rom,-b -B E00 -rn JCB -c :.63cc -f 0:1,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/JCBDigger-v1.1_B.zip,JCBDigger-v1.1_B.uef
@@ -33,6 +35,7 @@ OK,Plan B,Bug Byte,PlanB_BE.uef,PlanB.rom,-b -rn PLANB -c : -f 2 -m -r,https://w
 OK,Plan B2,Bug Byte,PlanB2_BE.uef,PlanB2.rom,-b -B 1900 -rn PLANB2 -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/BugByte/PlanB2_BE.zip,PlanB2_BE.uef
 OK,Planetoid,Acornsoft,Planetoid-v2.1_B.uef,Planetoid.rom,-b -B E00 -rn PLANETOID -c :3c00: -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Planetoid-v2.1_B.zip,Planetoid-v2.1_B.uef
 OK,Proteans,DK Tronics,Proteanse_B.uef,Proteans.rom,-b -B E00 -rn PROTEANSE -c : -w 120,https://www.stairwaytohell.com/bbc/archive/tapeimages/DKTronics/Proteanse_B.zip,Proteanse_B.uef
+OK,Psycastria 2,Audiogenic,Psycastria2_B.uef,Psycastria2-1.rom Psycastria2-2.rom,-b -B E00 -bf \!BOOT -rn PSY2 -c e00:1200/: -m -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/Audiogenic/Psycastria2_B.zip,Psycastria2_B.uef
 OK,Qwak,Superior Software,Qwak_B.uef,Qwak-2.rom Qwak-1.rom,-b -B E00 -bf \!BOOT -rn QWAK -c :e00:::1400/:,https://www.stairwaytohell.com/bbc/archive/tapeimages/Superior/Qwak_B.zip,Qwak_B.uef
 OK,Repton,Superior Software,Repton-SCRR_B.uef,Repton-2.rom Repton-1.rom,-b -B E00 -bf \!BOOT -rn REPTON -c :/: -s -t -w 120,https://www.stairwaytohell.com/bbc/archive/tapeimages/Superior/Repton-SCRR_B.zip,Repton-SCRR_B.uef
 OK,Rocket Raid,Acornsoft,RocketRaid-v2.1_B.uef,RocketRaid.rom,-b -B 1900 -rn ROCKET -c :4000:e00: -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/RocketRaid-v2.1_B.zip,RocketRaid-v2.1_B.uef
