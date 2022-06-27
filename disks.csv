@@ -1,2 +1,4 @@
 Disk,UEF,Files
 UEFs/CastleQuest.ssd,UEFs/CastleQuest.uef,$.CASTLEQ:$.CASTLE2:$.CASTLE3:$.CASTLE4:Q.mpwlogo:$.CASTLE5:$.CASTLE6:$.CASTLE7
+UEFs/Knightlore.ssd,UEFs/Knightlore.uef,$.LOAD:$.KNIGHT:$.KNIGHT1:$.KNIGHT2:$.KNIGHT3
+UEFs/SabreWulf-extended.ssd,UEFs/SabreWulf-extended.uef,$.LOAD:$.ZPR:$.ZPR2:$.ZPR3

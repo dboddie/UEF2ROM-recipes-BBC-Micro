@@ -24,6 +24,7 @@ OK,Invaders,Acornsoft,ArcadeAction-v2.5_B.uef,AAInvaders.rom,-c : -f 1 -m,https:
 OK,Inertia,4th Dimension,Inertia_B.uef,Inertia-2.rom Inertia-1.rom,-b -B 1900 -bf \!BOOT -rn INERTIA -c :6980:8c0/: -m -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/4thDimension/Inertia_B.zip,Inertia_B.uef
 OK,JCB Digger,Acornsoft,JCBDigger-v1.1_B.uef,JCBDigger.rom,-b -B E00 -rn JCB -c :.63cc -f 0:1,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/JCBDigger-v1.1_B.zip,JCBDigger-v1.1_B.uef
 OK,Killer Gorilla,Micropower,KillerGorilla_B.uef,KillerGorilla.rom,-b -B E00 -rn GORILLA -c : -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Micropower/KillerGorilla_B.zip,KillerGorilla_B.uef
+OK,Knight Lore,Ultimate,Knightlore.uef,Knightlore-1.rom Knightlore-2.rom,-b -B 1900 -bf \!BOOT -rn KNIGHTLORE -c :/: -m -s,https://www.stairwaytohell.com/bbc/archive/diskimages/Ultimate/Knightlore.zip,Ultimate/Knightlore.ssd
 OK,Labyrinth,Acornsoft,Labyrinth-v1.0_B.uef,Labyrinth-1.rom Labyrinth-2.rom,-b -B 1900 -bf \!BOOT -rn LABYRINTH -c :.5d00:/: -m -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Labyrinth-v1.0_B.zip,Labyrinth-v1.0_B.uef
 OK,Magic Mushrooms,Acornsoft,MagicMushrooms-v1_B.uef,Magic.rom,-b -B 1900 -rn MAGIC -c :.4700 -f 0:1,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/MagicMushrooms-v1_B.zip,MagicMushrooms-v1_B.uef
 OK,Maze,Acornsoft,Maze-v1_B.uef,Maze.rom,-b -B E00 -rn MAZE -c :.3a9f -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Maze-v1_B.zip,Maze-v1_B.uef
@@ -42,6 +43,7 @@ OK,Qwak,Superior Software,Qwak_B.uef,Qwak-2.rom Qwak-1.rom,-b -B E00 -bf \!BOOT 
 OK,Repton,Superior Software,Repton-SCRR_B.uef,Repton-2.rom Repton-1.rom,-b -B E00 -bf \!BOOT -rn REPTON -c :/: -s -t -w 120,https://www.stairwaytohell.com/bbc/archive/tapeimages/Superior/Repton-SCRR_B.zip,Repton-SCRR_B.uef
 OK,Rocket Raid,Acornsoft,RocketRaid-v2.1_B.uef,RocketRaid.rom,-b -B 1900 -rn ROCKET -c :4000:e00: -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/RocketRaid-v2.1_B.zip,RocketRaid-v2.1_B.uef
 OK,Rubble Trouble,Micropower,RubbleTrouble_B.uef,RubbleTrouble.rom,-b -B 1900 -rn RUBBLE -c ::2f00: -w 120,https://www.stairwaytohell.com/bbc/archive/tapeimages/Micropower/RubbleTrouble_B.zip,RubbleTrouble_B.uef
+OK,Sabre Wulf,Ultimate,SabreWulf-extended.uef,SabreWulf-2.rom SabreWulf-1.rom,-b -B 1900 -bf \!BOOT -rn SABREWULF -c :1900:/: -m -s,https://www.stairwaytohell.com/bbc/archive/diskimages/Ultimate/SabreWulf-extended.zip,Ultimate/SabreWulf-extended.ssd
 OK,Shark,Audiogenic,Shark_B.uef,Shark.rom,-b -B E00 -rn SHARK -c e00: -w 100 -t,https://www.stairwaytohell.com/bbc/archive/tapeimages/Audiogenic/Shark_B.zip,Shark_B.uef
 OK,Smash and Grab,Superior Software,SmashAndGrab_B.uef,Smash.rom,-b -B 1900 -bf \!BOOT -rn SMASH -c ::6000:,https://www.stairwaytohell.com/bbc/archive/tapeimages/Superior/SmashAndGrab_B.zip,SmashAndGrab_B.uef
 OK,Snake,Acornsoft,ArcadeAction-v2.5_B.uef,AASnake.rom,-c : -f 4 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/ArcadeAction-v2.5_B.zip,ArcadeAction-v2.5_B.uef
