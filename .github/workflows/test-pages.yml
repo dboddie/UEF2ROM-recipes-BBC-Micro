@@ -1,0 +1,24 @@
+name: Make GitHub Pages site
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Create an index file.
+        run: |
+          echo "<h1>Test</h1>" > index.html
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
