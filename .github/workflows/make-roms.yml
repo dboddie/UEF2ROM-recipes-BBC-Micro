@@ -37,18 +37,15 @@ jobs:
         run: PATH=UEF2ROM:$PATH sh disks.sh
       - name: Run the batch script
         run: PATH=Ophis/bin:UEF2ROM:$PATH sh batch.sh
-      - name: Create an index file.
+      - name: Create an index file and move the data.
         run: |
-          echo "<h1>UEF2ROM</h1>" > ROMs/index.html
+          mkdir -p _site
+          echo "<h1>UEF2ROM</h1>" > _site/index.html
+          mv ROMs _site/
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
-        with:
-          name: Converted ROMs
-          path: ROMs
       - name: Upload GitHub Pages artifacts
         uses: actions/upload-pages-artifact@v0
-        with:
-          path: ROMs
 
   deploy:
 
