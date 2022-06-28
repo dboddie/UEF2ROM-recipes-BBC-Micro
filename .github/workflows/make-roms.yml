@@ -32,7 +32,25 @@ jobs:
         run: PATH=UEF2ROM:$PATH sh disks.sh
       - name: Run the batch script
         run: PATH=Ophis/bin:UEF2ROM:$PATH sh batch.sh
-      - uses: actions/upload-artifact@v3
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
         with:
           name: Converted ROMs
           path: ROMs
+      - name: Upload GitHub Pages artifacts
+        uses: actions/upload-pages-artifact@v0
+        with:
+          path: ROMs
+
+  deploy:
+
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
