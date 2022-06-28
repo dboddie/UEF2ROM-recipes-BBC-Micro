@@ -44,6 +44,9 @@ jobs:
           mv ROMs _site/
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
+        with:
+          name: Converted ROMs
+          path: ROMs
       - name: Upload GitHub Pages artifacts
         uses: actions/upload-pages-artifact@v0
 
