@@ -37,6 +37,9 @@ jobs:
         run: PATH=UEF2ROM:$PATH sh disks.sh
       - name: Run the batch script
         run: PATH=Ophis/bin:UEF2ROM:$PATH sh batch.sh
+      - name: Create an index file.
+        run: |
+          echo "<h1>UEF2ROM</h1>" > ROMs/index.html
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
         with:
