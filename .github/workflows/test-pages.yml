@@ -9,16 +9,31 @@ permissions:
   id-token: write
 
 jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+
+    steps:
+      - name: Create an index file.
+        run: |
+          mkdir -p html
+          echo "<h1>Test</h1>" > html/index.html
+      - name: Upload GitHub Pages artifacts
+        uses: actions/upload-pages-artifact@v0
+        with:
+          path: html
+
   publish:
+    needs: build
     runs-on: ubuntu-latest
 
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Create an index file.
-        run: |
-          echo "<h1>Test</h1>" > index.html
       - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
