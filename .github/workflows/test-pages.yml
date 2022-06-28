@@ -19,12 +19,10 @@ jobs:
     steps:
       - name: Create an index file.
         run: |
-          mkdir -p html
-          echo "<h1>Test</h1>" > html/index.html
+          mkdir -p _site
+          echo "<h1>Test</h1>" > _site/index.html
       - name: Upload GitHub Pages artifacts
         uses: actions/upload-pages-artifact@v0
-        with:
-          path: html
 
   publish:
     needs: build
