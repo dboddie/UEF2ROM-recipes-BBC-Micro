@@ -1,0 +1,4 @@
+# Index     Offset      Span length     Data
+# Disable OSBYTE &8c calls to select the cassette filing system.
+  4         0x147       3               0xea,0xea,0xea
+  5         0x4732      3               0xea,0xea,0xea
