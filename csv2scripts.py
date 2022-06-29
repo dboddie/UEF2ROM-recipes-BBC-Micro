@@ -19,6 +19,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import os, sys
 
+process_names = []
+
+if len(sys.argv) > 1:
+    process_names += sys.argv[1:]
+
 check_headings = ["Status", "Name", "Publisher", "UEF", "ROMs", "Options", "URL", "Files"]
 
 lines = open("roms.csv").readlines()
@@ -53,6 +58,9 @@ for line in lines:
     
     elif d["URL"] == "-":
         print("Skipping", d["Name"])
+        continue
+    
+    elif process_names and d["Name"] not in process_names:
         continue
     
     games += 1
