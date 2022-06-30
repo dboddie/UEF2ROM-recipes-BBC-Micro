@@ -1,0 +1,9 @@
+.alias BYTEV $020a
+.alias old_bytev $9b
+
+restore_tape_vector:
+    lda old_bytev
+    sta BYTEV
+    lda [old_bytev + 1]
+    sta [BYTEV + 1]
+    rts
