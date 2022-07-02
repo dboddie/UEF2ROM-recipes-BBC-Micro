@@ -21,6 +21,16 @@ import os, sys, time, zipfile
 import urllib.error, urllib.request
 from io import BytesIO
 
+args = sys.argv[1:]
+update = "--update" in args
+if update:
+    args.remove("--update")
+
+process_names = []
+
+if len(sys.argv) > 1:
+    process_names += args
+
 check_headings = ["Status", "Name", "Publisher", "UEF", "ROMs", "Options", "URL", "Files"]
 
 lines = open("roms.csv").readlines()
@@ -51,6 +61,9 @@ for line in lines:
     
     if not d["Status"].startswith("OK"):
         print("Skipping", d["Name"], "-", d["Status"])
+        continue
+    
+    elif process_names and d["Name"] not in process_names:
         continue
     
     file_names = d["Files"].split()
@@ -103,4 +116,5 @@ for line in lines:
     
     new_lines.append(",".join(new_line))
 
-open("roms.csv", "w").write("\n".join(new_lines) + "\n")
+if update:
+    open("roms.csv", "w").write("\n".join(new_lines) + "\n")

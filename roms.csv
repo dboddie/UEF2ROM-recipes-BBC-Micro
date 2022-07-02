@@ -59,6 +59,7 @@ OK,Sphinx Adventure,Acornsoft,SphinxAdventure-v1.0_B.uef,Sphinx-1.rom Sphinx-2.r
 OK,Starship Command,Acornsoft,StarshipCommand-v1.1_B.uef,Starship.rom,-b -B E00 -rn STARSHIP -c :,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/StarshipCommand-v1.1_B.zip,StarshipCommand-v1.1_B.uef
 OK,Stock Car,Micropower,StockCar_B.uef,StockCar.rom,-b -B 1900 -bf \!BOOT -rn STOCKCAR -c :e00:,https://www.stairwaytohell.com/bbc/archive/tapeimages/Micropower/StockCar_B.zip,StockCar_B.uef
 OK,Super Invaders,Acornsoft,SuperInvaders-v1_B.uef,SuperInvaders.rom,-b -B E00 -rn SUPER -c : -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/SuperInvaders-v1_B.zip,SuperInvaders-v1_B.uef
+OK,Super Invaders (easy),Acornsoft,SuperInvaders-v1_B.uef,SuperInvaders.rom,-b -B E00 -rn SUPER -c : -m -pf patch_files/superinvaders-dllm.txt,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/SuperInvaders-v1_B.zip,SuperInvaders-v1_B.uef
 OK,Tetrapod,Acornsoft,Tetrapod-v1_B.uef,Tetrapod.rom,-b -B E00 -rn TETRAPOD -c :.2333 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Tetrapod-v1_B.zip,Tetrapod-v1_B.uef
 OK,Thrust,Superior Software,Thrust_B.uef,Thrust-2.rom Thrust-1.rom,-b -B 1900 -bf \!BOOT -rn THRUST -c :/: -s,https://www.stairwaytohell.com/bbc/archive/tapeimages/Superior/Thrust_B.zip,Thrust_B.uef
 OK,Volcano,Acornsoft,Volcano-v1_B.uef,Volcano.rom,-b -B E00 -rn VOLCANO -c :.44a0 -m,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Volcano-v1_B.zip,Volcano-v1_B.uef

@@ -1,0 +1,5 @@
+# Index     Offset      Span length     Data
+# Skip the difficulty screen.
+  1         0x120a      3               0xa9,0x23,0xea
+  1         0x120f      3               0xa9,0x8a,0xea
+  1         0x1214      3               0x4c,0x33,0x20
